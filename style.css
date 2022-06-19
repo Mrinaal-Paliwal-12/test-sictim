@@ -617,7 +617,7 @@ a:hover, a:active {
 }
 
 .container {
-	max-width: 1170px;
+	max-width: 1470px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -798,6 +798,8 @@ ul > li {
 	left: 9.8rem;
 	right: 9.8rem;
 	text-align: center;
+	/* color:red;
+	background-color: black; */
 	/*font-family: 'Raleway', sans-serif;*/
 	/*color: #fff;*/
 	z-index: 9;
@@ -1292,6 +1294,9 @@ ul > li {
 .event-wrap .img-wrap {
 	width: 73.7%;
 }
+.event-wrap .img-wrap img{
+	height: 400px;
+}
 
 .event-wrap .details {
 	width: 47.368%;
@@ -1430,7 +1435,10 @@ ul > li {
 }
 
 .page-footer .footer-first-section .container .box-wrap {
-	width: 23.077%;
+	width: 16.07%;
+}
+.page-footer .footer-first-section .container .box-wrap p{
+	color:#6a6a6a;
 }
 
 .footer-first-section .box-wrap header {

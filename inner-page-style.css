@@ -277,7 +277,7 @@ figcaption h4
 .footer-first-section .quick-contact input,
 .footer-first-section .quick-contact textarea
 {
-	background: #000;
+	background: #fafbfb;
 }
 
 
@@ -311,7 +311,7 @@ figcaption h4
 #course-page aside .reserve-course input[type="submit"],
 .testimonial-page aside .submit-testimonials input[type="submit"]
 {
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 
 /*======White Background Color========*/
