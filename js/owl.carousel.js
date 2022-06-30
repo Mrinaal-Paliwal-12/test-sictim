@@ -186,10 +186,11 @@
 	Owl.Defaults = {
 		items: 3,
 		loop: false,
+		// loop: true,
 		center: false,
 		rewind: false,
 		checkVisibility: true,
-
+		// autoplay: true,
 		mouseDrag: true,
 		touchDrag: true,
 		pullDrag: true,

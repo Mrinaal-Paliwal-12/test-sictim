@@ -70,7 +70,7 @@ html {
 body {
 	margin: 0;
 }
-
+.logo
 
 /* Grouping content
 	 ========================================================================== */
@@ -719,6 +719,8 @@ a:hover, a:active {
 
 ul > li {
 	position: relative;
+	/* position: relative; */
+	font-size: initial;
 }
 
 .nav-desktop .sub-menu {
@@ -2326,7 +2328,11 @@ aside .news-letter hr {
 }
 
 .about-upper-section .who-we-are {
-	width: 57.265%;
+	width: 70%;
+background-color: rgb(231,232,233);
+box-sizing: border-box;
+padding-inline: 1em;
+padding-top: 15px;
 }
 
 .about-upper-section .who-we-are p {
@@ -2342,11 +2348,18 @@ aside .news-letter hr {
 	text-transform: uppercase;
 	margin-bottom: 1.1667em;
 }
+.about-article-h2{
+	color:#b7202e;
+}
 
 /*=====Our Story=====*/
 
 .about-upper-section .our-story {
-	width: 370px;
+	width: 400px;
+	background-color: rgb(231,232,233);
+	padding-left: 8px;
+	text-align: center;
+	padding-top: 15px;
 }
 
 .about-upper-section .our-story ul {
@@ -3551,3 +3564,4 @@ RESPONSIVE STYLESHEET
 .what-other-say .owl-nav button.owl-next:hover {
 	background: #12a84e;
 }
+

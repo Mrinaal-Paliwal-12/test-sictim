@@ -96,7 +96,10 @@ $('.owl-three').owlCarousel({
 // For Banner Slider Home Page
 $('.owl-four').owlCarousel({
     loop:true,
+    // autoPlay : true,
     responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout:2000,
     nav: true,
     dots: false,
     navContainer: '#owl-four-nav',
