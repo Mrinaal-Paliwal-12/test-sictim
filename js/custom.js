@@ -126,7 +126,7 @@ $('.owl-four').owlCarousel({
 // Owl Carousel For Video
 $('.owl-five').owlCarousel({
         items:1,
-        loop:true,
+        loop:false,
         margin:0,
         video:true,
         autoHeight:true,
