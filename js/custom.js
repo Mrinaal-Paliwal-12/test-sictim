@@ -132,6 +132,7 @@ $('.owl-five').owlCarousel({
         autoHeight:true,
         lazyLoad:true,
         center:true,
+        dots: false,
         responsive:{
             480:{
                 items:1

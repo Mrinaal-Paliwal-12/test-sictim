@@ -787,7 +787,7 @@ ul > li {
 /*===============Banner Images===========*/
 .banner {
 	position: relative;
-	margin-bottom: -8px;
+	margin-bottom: 15px;
 }
 
 .banner img {
