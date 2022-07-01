@@ -1631,6 +1631,7 @@ ul > li {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 	grid-gap: 30px;
+	justify-content: center;
 }
 
 /*========Full Width============================*/
@@ -3579,4 +3580,6 @@ RESPONSIVE STYLESHEET
 .what-other-say .owl-nav button.owl-next:hover {
 	background: #12a84e;
 }
-
+/* .img-self img{
+	height: 500px!important;object-position: center;object-fit: cover;width: 100%;
+} */
