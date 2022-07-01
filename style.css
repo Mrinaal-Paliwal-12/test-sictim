@@ -2205,20 +2205,24 @@ aside .news-letter hr {
 }
 
 .contact-page-section .people-info-wrap {
-	width: 57.265%;
-
+	width: 60%;
+	box-sizing: border-box;
+padding-top: 15px;
+padding-left: 15px;
 }
 
 .contact-page-section .people-info-wrap h2 {
 	/*font-size: 3rem;*/
 	text-transform: uppercase;
-	/*color: #000;*/
+	color: #b7202e;
+	text-align: center;
 }
 
 .contact-page-section .people-info-wrap p {
 	/*font-size: 1.6rem;*/
 	/*color: #5c5c5c;*/
 	margin-top: 1.5625em;
+	text-align: center;
 	margin-bottom: 2.5em;
 }
 
@@ -2251,8 +2255,8 @@ aside .news-letter hr {
 
 .people-info-wrap form input[type="submit"] {
 	/*font-size: 1.6rem;*/
-	background: #2d77bf;
-	/*color: #fff;*/
+	background: #b7202e;
+	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
 	width: 100%;
@@ -2261,11 +2265,19 @@ aside .news-letter hr {
 	margin-top: 1.875em;
 	cursor: pointer;
 }
-
+.people-info-wrap form input[type="submit"]:hover {
+	background-color: #ed1c24 ;
+	transform: translateY(-2px);
+  }
 /*====Contact Info====*/
 
 .contact-page-section .contact-info {
-	width: 370px;
+	width: 430px;
+	background-color: rgb(231,232,233);
+	/* text-align: center; */
+	box-sizing: border-box;
+padding-top: 15px;
+padding-left: 15px;
 }
 
 .contact-page-section .contact-info h2 {
@@ -2273,6 +2285,8 @@ aside .news-letter hr {
 	text-transform: uppercase;
 	/*color: #000;*/
 	margin-bottom: 2em;
+	text-align: center;
+	color: #b7202e ;
 }
 
 .contact-page-section .contact-list {
@@ -2329,7 +2343,7 @@ aside .news-letter hr {
 
 .about-upper-section .who-we-are {
 	width: 70%;
-background-color: rgb(231,232,233);
+background-color: rgb(244, 244, 244);
 box-sizing: border-box;
 padding-inline: 1em;
 padding-top: 15px;

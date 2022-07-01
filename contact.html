@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>education</title>
+	<title>Contact-Us</title>
 	<meta name="viewport" content="width=device-width">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/all.css">
@@ -15,7 +15,7 @@
 <body>
 	<div id="page" class="site">
 		<header class="site-header">
-			<div class="top-header">
+			<!-- <div class="top-header">
 				<div class="container">
 					<div class="top-header-left">
 						<div class="top-header-block">
@@ -42,63 +42,75 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- Top header Close -->
 			<div class="main-header">
 				<div class="container">
-					<div class="logo-wrap">
-						<img src="images/site-logo.jpg" alt="Logo Image">
+				  <div class="logo-wrap">
+					<!-- <img src="images/simsrnew.svg" alt="Logo Image" /> -->
+					<img
+					  src="images/simsrnew.svg"
+					  alt="Logo Image"
+					  style="margin-left: 22px; margin-top: 5px; margin-bottom: 5px"
+					/>
+				  </div>
+				  <div class="nav-wrap">
+					<nav class="nav-desktop" style="margin: 8px 10px">
+					  <ul class="menu-list">
+						<li>
+						  <a href="index.html"><img src="images/home-red.svg" /></a>
+						</li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="">Call For Papers</a></li>
+						<li><a href="">Workshops</a></li>
+						<li><a href="speakers.html">Speakers</a></li>
+						<li><a href="">Registration</a></li>
+						<li class="menu-parent">
+						  Submission
+						  <ul class="sub-menu">
+							<li><a href="#">Child</a></li>
+							<li><a href="#">Child</a></li>
+							<li class="menu-parent">
+							  Child
+							  <ul class="sub-menu">
+								<li><a href="">Grand-child</a></li>
+								<li><a href="">Grand-child</a></li>
+							  </ul>
+							</li>
+						  </ul>
+						</li>
+						<!-- <li class="menu-parent">News
+												<ul class="sub-menu">
+													<li><a href="#">Child</a></li>
+													<li><a href="#">Child</a></li>
+												</ul>
+											</li> -->
+						<li><a href="contact.html">Contact-Us</a></li>
+					  </ul>
+					</nav>
+					<div id="bar">
+					  <i class="fas fa-bars"></i>
 					</div>
-					<div class="nav-wrap">
-						<nav class="nav-desktop">
-							<ul class="menu-list">
-								<li><a href="#">Home</a></li>
-								<li class="menu-parent">Courses
-									<ul class="sub-menu">
-										<li><a href="#">Child</a></li>
-										<li><a href="#">Child</a></li>
-										<li class="menu-parent">Child
-											<ul class="sub-menu">
-												<li><a href="">Grand-child</a></li>
-												<li><a href="">Grand-child</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li class="menu-parent">News
-									<ul class="sub-menu">
-										<li><a href="#">Child</a></li>
-										<li><a href="#">Child</a></li>
-									</ul>
-								</li>
-								<li><a href="">About</a></li>
-								<li><a href="">Gallery</a></li>
-								<li><a href="">Contact</a></li>
-							</ul>
-						</nav>
-						<div id="bar">
-							<i class="fas fa-bars"></i>
-						</div>
-						<div id="close">
-							<i class="fas fa-times"></i>
-						</div>
+					<div id="close">
+					  <i class="fas fa-times"></i>
 					</div>
+				  </div>
 				</div>
-			</div>
-		</header>
+			  </div>
+			</header>
 		<!-- Header Close -->
-		<div class="banner">
+		<!-- <div class="banner">
 			<div class="owl-four owl-carousel">
 				<img src="images/page-banner.jpg" alt="Image of Bannner">
 				<img src="images/page-banner2.jpg" alt="Image of Bannner">
 				<img src="images/page-banner3.jpg" alt="Image of Bannner">
-			</div>
-			<div class="container">
+			</div> -->
+			<!-- <div class="container">
 				<h1>welcome to education pro</h1>
 				<h3>With our advance search feature you can now find the trips for you...</h3>
 			</div>
 			 <div id="owl-four-nav" class="owl-nav"></div>
-		</div>
+		</div> -->
 		<!-- <div class="banner">
 			<div class="owl-five owl-carousel owl-theme">
 	            <div class="item-video">
@@ -126,22 +138,21 @@
 		<section class="contact-page-section">
 			<div class="container">
 				<div class="people-info-wrap">
-					<h2>leave us your info</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.</p>
-					<form>
+					<h2>Contact Us</h2>
+					<p>In case you have any queries, feel free to contact us:</p>
+					<form action="POST" data-netlify="true">
 						<span>
-						<input type="text" placeholder="Full Name*" class="input- name">
-						<input type="email" placeholder="Email*" class="input- email">
+						<input type="text" placeholder="Full Name*" class="input- name" name="Name">
+						<input type="email" placeholder="Email*" class="input- email" name="Email">
 						</span>
-						<input type="text" placeholder="Subject*" class="input- subject">
-						<textarea placeholder="Messages*" class="input-">
+						<input type="text" placeholder="Subject*" class="input- subject" name="Subject">
+						<textarea placeholder="Messages*" class="input-" name="Message">
 							
 						</textarea>
-						<input type="submit" value="submit now">
+						<div>
+							<div data-netlify-recaptcha="true"></div>
+						</div>
+						<input type="submit" value="submit now" name="submit">
 					</form>
 				</div>
 
@@ -150,19 +161,19 @@
 					<ul class="contact-list">
 						<li><i class="fas fa-location-arrow"></i> 
 							<span>
-								<p>Gongabu, Kathmandu, Nepal</p>
-							    <p>(Opposite to Aatmagyan Prachar sangh)</p>
+								<p>Somaiya Vidyavihar University</p>
+							    <p>Vidyavihar (E),Mumbai–400077</p>
 							</span>
 						</li>
 						<li><i class="fas fa-phone"></i>
 							<span> 
-								<p>Phone: 016204888, Mobile: 9813639131</p>
-								<p>Fax:7838478387</p>
+								<p>Phone:+91-22-6728-3000</p>
+								<p>Fax:+91 22 6728 3050</p>
 							</span>
 						</li>
 						<li><i class="fas fa-envelope"></i>
 							<span>
-								<p>info@labtheme.com</p>
+								<p>somaiya.edu</p>
 							</span>
 						</li>
 					</ul>
@@ -180,105 +191,125 @@
 		</section>
 
 		<section class="map-section">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.5733087899557!2d85.31323458697706!3d27.730457718152763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1920ba20a0d5%3A0x3ea7459e8ab1371f!2sSpyders+Lab!5e0!3m2!1sen!2snp!4v1547705422844" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<!-- <iframe src="https://www.google.com/maps/place/K+J+Somaiya+Institute+of+Management/@19.072776,72.8978383,15z/data=!4m5!3m4!1s0x0:0x2d6190e60dcda447!8m2!3d19.072776!4d72.8978383" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.794266104578!2d72.89564961421266!3d19.072781057031545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c89d872d6e89%3A0x2d6190e60dcda447!2sK%20J%20Somaiya%20Institute%20of%20Management!5e0!3m2!1sen!2sin!4v1656632778160!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</section>
 
 		<section class="query-section">
 			<div class="container">
-				<p>Any Queries? Ask us a question at<a href="tel:+9779813639131"><i class="fas fa-phone"></i> +977 9813639131</a></p>
+				<p style="text-align:center;">Any Queries? Ask us a question at<a href="#"><i class="fas fa-envelope"></i> Somaiya.edu</a></p>
 			</div>
 		</section>
 		<!-- End of Query Section -->
 		<footer class="page-footer">
 			<div class="footer-first-section">
-				<div class="container">
-					<div class="box-wrap">
-						<header>
-							<h1>about</h1>
-						</header>
-						<p>Edugate is a great start for and education. Personnel or oganization to start the online business with 1 click</p>
-
-						<h4><a href="tel:+9779813639131"><i class="fas fa-phone"></i> +977 9813639131</a></h4>
-						<h4><a href="mailto:info@educationpro.com"><i class="fas fa-envelope"></i> info@educationpro.com</a></h4>
-						<h4><i class="fas fa-map-marker-alt"></i>Gongabu, Kathmandu, Nepal</h4>
-					</div>
-
-					<div class="box-wrap">
-						<header>
-							<h1>links</h1>
-						</header>
-						<ul>
-							<li><a href="#">Teacher</a></li>
-							<li><a href="#">Courses</a></li>
-							<li><a href="#">Courses</a></li>
-							<li><a href="#">Courses</a></li>
-							<li><a href="#">Courses</a></li>
-							<li><a href="#">Courses</a></li>
-						</ul>
-					</div>
-
-					<div class="box-wrap">
-						<header>
-							<h1>recent courses</h1>
-						</header>
-						<div class="recent-course-wrap">
-							<img src="images/ui-ux.jpg" alt="Ui/Ux Designing">
-							<a href=""><div class="course-name">
-								<h3>UI/UX Designer courses</h3>
-								<p><span>$50</span> $40</p>
-							</div></a>
-						</div>
-						<div class="recent-course-wrap">
-							<img src="images/ui-ux.jpg" alt="Ui/Ux Designing">
-							<a href=""><div class="course-name">
-								<h3>UI/UX Designer courses</h3>
-								<p><span>$50</span> $40</p>
-							</div></a>
-						</div>
-					</div>
-
-					<div class="box-wrap">
-						<header>
-							<h1>quick contact</h1>
-						</header>
-						<section class="quick-contact">
-							<input type="email" name="email" placeholder="Your Email*">
-							<textarea placeholder="Type your message*"></textarea>
-							<button>send message</button>
-						</section>
-					</div>
-
+			  <div class="container">
+				<div class="box-wrap">
+				  <header>
+					<h1>about</h1>
+				  </header>
+				  <p>
+					Centre for Sustainable Development K J Somaiya Institute of
+					Management Somaiya Vidyavihar University Vidyavihar (E),
+					Mumbai–400077, India
+				  </p>
+				  <!-- <h4><a href="tel:+9779813639131"><i class="fas fa-phone"></i> +977 9813639131</a></h4>
+								<h4><a href="mailto:info@educationpro.com"><i class="fas fa-envelope"></i> info@educationpro.com</a></h4>
+								<h4><i class="fas fa-map-marker-alt"></i>Gongabu, Kathmandu, Nepal</h4> -->
 				</div>
+				<div class="box-wrap">
+				  <header>
+					<h1>Telephone</h1>
+				  </header>
+				  <p>+91 22 6728 3000</p>
+				  <p>+91 22 6728 3050</p>
+				</div>
+				<div class="box-wrap">
+				  <header>
+					<h1>Email</h1>
+				  </header>
+				  <p>somaiya.edu</p>
+				</div>
+				<div class="box-wrap">
+				  <header>
+					<h1>Website</h1>
+				  </header>
+				  <p>www.somaiya.edu</p>
+				</div>
+				<!-- <div class="box-wrap">
+								<header>
+									<h1>links</h1>
+								</header>
+								<ul>
+									<li><a href="#">Teacher</a></li>
+									<li><a href="#">Courses</a></li>
+									<li><a href="#">Courses</a></li>
+									<li><a href="#">Courses</a></li>
+									<li><a href="#">Courses</a></li>
+									<li><a href="#">Courses</a></li>
+								</ul>
+							</div> -->
+	
+				<!-- <div class="box-wrap">
+								<header>
+									<h1>recent courses</h1>
+								</header>
+								<div class="recent-course-wrap">
+									<img src="images/ui-ux.jpg" alt="Ui/Ux Designing">
+									<a href=""><div class="course-name">
+										<h3>UI/UX Designer courses</h3>
+										<p><span>$50</span> $40</p>
+									</div></a>
+								</div>
+								<div class="recent-course-wrap">
+									<img src="images/ui-ux.jpg" alt="Ui/Ux Designing">
+									<a href=""><div class="course-name">
+										<h3>UI/UX Designer courses</h3>
+										<p><span>$50</span> $40</p>
+									</div></a>
+								</div>
+							</div>
+		
+							<div class="box-wrap">
+								<header>
+									<h1>quick contact</h1>
+								</header>
+								<section class="quick-contact">
+									<input type="email" name="email" placeholder="Your Email*">
+									<textarea placeholder="Type your message*"></textarea>
+									<button>send message</button>
+								</section>
+							</div> -->
+			  </div>
 			</div>
 			<!-- End of box-Wrap -->
 			<div class="footer-second-section">
-				<div class="container">
-					<hr class="footer-line">
-					<ul class="social-list">
-						<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-						<li><a href=""><i class="fab fa-twitter"></i></a></li>
-						<li><a href=""><i class="fab fa-skype"></i></a></li>
-						<li><a href=""><i class="fab fa-youtube"></i></a></li>
-						<li><a href=""><i class="fab fa-instagram"></i></a></li>
-					</ul>
-					<hr class="footer-line">
-				</div>
+			  <div class="container">
+				<hr class="footer-line" />
+				<!-- <ul class="social-list">
+								<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+								<li><a href=""><i class="fab fa-twitter"></i></a></li>
+								<li><a href=""><i class="fab fa-skype"></i></a></li>
+								<li><a href=""><i class="fab fa-youtube"></i></a></li>
+								<li><a href=""><i class="fab fa-instagram"></i></a></li>
+							</ul> -->
+				<!-- <hr class="footer-line"> -->
+			  </div>
 			</div>
 			<div class="footer-last-section">
-				<div class="container">
-					<p>Copyright 2018 &copy; educationpro.com <span> | </span> Theme designed and developed by <a href="https://labtheme.com">Lab Theme</a></p>
-				</div>
+			  <div class="container">
+				<p>Copyright 2023 &copy; K J Somaiya Institute of Management</p>
+			  </div>
 			</div>
-		</footer>
-	</div>
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/lightbox.js"></script>
-	<script type="text/javascript" src="js/all.js"></script>
-	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.js"></script>
-	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
-	<script type="text/javascript" src="js/jquery.rateyo.js"></script>
-	<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
-</body>
-</html>
+		  </footer>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/lightbox.js"></script>
+		<script type="text/javascript" src="js/all.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript" src="js/jquery.rateyo.js"></script>
+		<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+	  </body>
+	</html>

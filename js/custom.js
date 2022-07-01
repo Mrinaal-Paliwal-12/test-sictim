@@ -99,7 +99,7 @@ $('.owl-four').owlCarousel({
     // autoPlay : true,
     responsiveClass:true,
     autoplay:true,
-    autoplayTimeout:2000,
+    autoplayTimeout:5000,
     nav: true,
     dots: false,
     navContainer: '#owl-four-nav',
