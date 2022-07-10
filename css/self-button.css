@@ -1,6 +1,6 @@
 /* CSS */
 .button-66 {
-  background-color: #ed1c24 ;
+  background-color: #b7202e ;
   border-radius: 4px;
   border: 0;
   box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
@@ -26,7 +26,7 @@
 }
 
 .button-66:hover {
-  background-color: #b7202e;
+  background-color: #ed1c24;
   transform: translateY(-2px);
 }
 

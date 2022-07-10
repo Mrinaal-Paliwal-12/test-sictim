@@ -230,7 +230,7 @@ figcaption h3
 .testimonial-page .container,
 .customer-review .row .rewiew-content
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 /*================================
@@ -342,7 +342,7 @@ figcaption h4
 #course-page aside .reserve-course input[type="submit"],
 .testimonial-page aside .submit-testimonials input[type="submit"]
 {
-	background: #1c3961;
+	background: #fff;
 }
 
 /*======Dark BLue Color For Text============*/

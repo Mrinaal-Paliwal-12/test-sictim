@@ -262,7 +262,7 @@ figcaption h3
 .testimonial-page .container,
 .customer-review .row .rewiew-content
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 /*================================
